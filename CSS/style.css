@@ -1,0 +1,159 @@
+header{
+    height: 100vh;
+}
+nav{
+    background: linear-gradient(rgb(10, 10, 52) , rgb(1, 20, 37));
+    padding: 10px;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo{
+    display: flex;
+}
+nav .logo img{
+    width: 50px;
+    height: 50px;
+}
+nav .logo ul{
+    display: flex;   
+    margin-top: 10px;
+
+}
+nav .logo ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+nav .logo ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    transition: .5s;
+}
+nav .logo ul li a:hover{
+    opacity: .7;
+}
+nav .buttons{
+    margin-top: 10px;
+}
+nav .buttons a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: .5s;
+}
+nav .buttons a:hover{
+    text-decoration: underline;
+}
+nav .buttons .button{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: .3s;
+}
+nav .buttons .button:hover{
+    background-color: white;
+    text-decoration: none;
+    color: rgb(16, 16, 47);
+}
+header .text{
+    padding-top: 150px;
+    color: white;
+}
+header .text h1{
+    font-weight: bold;
+    font-size: 3rem;
+}
+header .text h1 span{
+    color: aqua;
+}
+header .text p{
+    opacity: .8;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+header .container .row .text a{
+    color: white;
+    padding: 12.5px 45px;
+    border-radius: 5px;
+    text-decoration: none;
+    background: linear-gradient(to right , rgb(0, 206, 206) , rgb(59, 170, 234));
+}
+header img{
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.ad{
+    text-align: center;
+    color: rgb(0, 255, 242) ;
+}
+.ad h1{
+    font-weight: 700;
+}
+.ad hr{
+    background-color: aqua;
+    border-radius: 30px;
+    border: aqua 2px solid;
+    width: 75%;
+    margin-top: 15px;
+}
+#Plugins{
+    width: 85%;
+    margin: auto;
+}
+#Plugins .div{
+    text-align: center;
+    color: white;
+    border: 1px solid aqua;
+    padding: 10px;
+    box-shadow: rgba(127, 255, 212, 0.132) 3px 3px 3px 3px;
+    background-color: rgb(14, 14, 43);
+}
+#Plugins .div i{
+    color: aqua;
+    padding: 35px;
+    transform: scale(4);
+}
+#Plugins .div a{
+    text-decoration: none;
+    color: aqua;
+}
+@media screen and (max-width:650px) {
+    nav .logo ul{
+        display: none;
+    }
+    nav .buttons{
+        display: none;
+    }
+    nav .container .logo{
+        margin: auto;
+    }
+    header{
+        height: auto;
+    }
+    header .text{
+        padding-top: 125px;
+        text-align: center;
+    }
+    header .text h1{
+        font-size: 2rem;
+    }
+    header .text p{
+        width: 90%;
+    }
+    header img{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px ;
+        padding-left: 30px;
+    }
+    #Plugins{
+        width: 90%;
+        margin: auto;
+    }
+}
